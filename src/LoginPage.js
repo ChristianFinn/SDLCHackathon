@@ -37,7 +37,7 @@ function LoginFormFields() {
         <input id="password" type="password" placeholder="******************" />
       </div>
       <div className="form-footer">
-        <button type="button" className="submit-button">Sign In</button>
+        <button id="login-button" type="button" className="submit-button">Sign In</button>
         <a href="#">Forgot Password?</a>
       </div>
     </>

@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import LoginForm from './LoginPage';
+import LoginForm from '../LoginPage';
 
 test('renders login form with default fields', () => {
   render(<LoginForm />);
